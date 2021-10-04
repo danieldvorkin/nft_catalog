@@ -3,8 +3,7 @@ import MenuBar from './components/Navbar/MenuBar';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Homepage from './components/Homepage/Homepage';
 import Catalog from './components/Catalog/Catalog';
