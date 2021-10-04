@@ -175,13 +175,21 @@ function Catalog(){
                   <p><strong>Owners: </strong><br/>{selectedAsset?.collection?.stats?.num_owners}</p>
                 </Col>
                 <Col>
-                  <p><strong>Floor Price</strong><br/>${selectedAsset?.collection?.stats?.floor_price?.toFixed(4)}</p>
+                  <p>
+                    <strong>Floor Price</strong><br/>
+                    <img src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg" alt="ETH" style={{maxHeight: '20px', marginRight: '5px'}}/>
+                    {selectedAsset?.collection?.stats?.floor_price?.toFixed(4)}
+                  </p>
                 </Col>
                 <Col>
                   <p><strong>Total Vol: </strong><br/>{selectedAsset?.collection?.stats?.total_volume?.toFixed(4)}</p>
                 </Col>
                 <Col>
-                  <p><strong>Average Price: </strong><br/>${selectedAsset?.collection?.stats?.average_price?.toFixed(4)}</p>
+                  <p>
+                    <strong>Average Price: </strong><br/>
+                    <img src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg" alt="ETH" style={{maxHeight: '20px', marginRight: '5px'}}/>
+                    {selectedAsset?.collection?.stats?.average_price?.toFixed(4)}
+                  </p>
                 </Col>
               </Row>
               <hr/>
