@@ -12,7 +12,7 @@ function Catalog(){
 
   const handleClose = () => {
     setShow(false);
-    // setSelectedAsset({});
+    setSelectedAsset({});
   }
 
   const handleShow = (event) => {
